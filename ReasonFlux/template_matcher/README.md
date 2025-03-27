@@ -3,7 +3,9 @@
 <a href="./README_ZH.md">中文</a> |
 <a href="./README.md">English</a>
 </center>
+
 In this directory, we have implemented a hierarchical vector database based on `chromadb`. This database can store nested dictionaries in a hierarchical manner and supports hierarchical retrieval.
+
 ![](../../asset/database.png)
 
 As shown in the figure, the database consists of several data collections, each of which stores data nodes at the same level. The structure of each node is as follows:
