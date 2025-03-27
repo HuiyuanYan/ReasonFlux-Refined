@@ -1,0 +1,13 @@
+name: Inference
+description: Agent that inference using a language model, designed for student-tutor interplay.
+type: inference
+max_steps: 1
+
+llm:
+  model: qwen-max
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: sk-xx
+  max_tokens: 3072
+  temperature: 0.6
+  timeout: 60
+  max_retries: 1

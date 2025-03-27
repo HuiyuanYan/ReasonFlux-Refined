@@ -1,0 +1,13 @@
+name: Navigator
+description: Agent that navigating and controlling the reasoning process of a language model.
+type: navigator
+max_steps: 1
+
+llm:
+  model: qwen-max
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_key: sk-xx
+  max_tokens: 3072
+  temperature: 0.6
+  timeout: 60
+  max_retries: 1

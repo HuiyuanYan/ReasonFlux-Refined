@@ -1,0 +1,8 @@
+data_dir: database
+
+# embedding service
+embedding_service:
+  provider: openai
+  model: text-embedding-v3
+  api_key: sk-xx
+  api_base: https://dashscope.aliyuncs.com/compatible-mode/v1
